@@ -1,0 +1,179 @@
+/*响应式*/
+
+@media screen and (min-width: 960px) and (max-width: 1099px) {
+	html{font-size: 15px;}
+	.pages{ padding:0 3rem;}
+	.h-logo{ margin-top:2.4rem;}
+	.h-logo img{ width:100%;}
+	.nav > ul > li{ padding:0px 10px; }
+	.NavCeshi > li > a{line-height:6.9rem;}
+	.nav-ab{ padding:3rem 2rem; height:520px;}
+	.nav_fl_bt{ font-size:1.5rem;}
+	.nav_fc_bt{ font-size:1.5rem;}
+	.enga li{ padding:0 8px;}
+	.Nav_eMenu{ width:70px;}
+	.NavCeshi > li > .mo-jt:before{ right:-15px;}
+	.nav_fl{ width:19.8%;}
+	.product{ height:780px;}
+	.prod-fl{ width:100%; height:182px;}
+	.prod-fl{ margin-top:3.6rem;}
+	.prod-fl-img{ display:none;}
+	.prod-fl-nr{ width:100%; float:left; position:static;}
+	.prod-sort{ width:100%; margin-top:2rem;}
+	.prod-a{ height:14.2rem;}
+	.prod-a-img{ left:5%; top:15%;}
+	.prod-a-nr{ width:45%; right:5%; top:15%;}
+	.prod-a-nr h4{ font-size:1.2rem;}
+	.prod-a span{ font-size:1rem;}
+	.prod-a-nr i{ font-size:18px;}
+	.prod-fl:hover .prod-fl-nr h3::after{ width:26px;}
+	.case-fl:hover .case-fl-an{ width:30%; }
+	.case-fl:hover h3::after{ width:26px;}
+
+	
+	.case{ 	}
+	.case-fl{ width:100%; padding:2rem 1.2rem; height:270px;}
+	.case-fr{ width:100%; float:left; margin-top:1%; height:248px;}
+	.case-fr figure{ margin-left:0; margin-right:1%;}
+	.case-fr figure:nth-child(2){ margin-right:0;}
+	.case-fr figure figcaption h4{ margin-top:20%;}
+	.case-xm{ margin-top:1%;}
+	.case-a{ width:100%;}
+	.case-a figure{ width:49.5%; height:248px;}
+	.case-nr img{ width:100%; height:100%;}
+	.case-xm .catop{ margin-top:0;}
+	.case-a figure:nth-child(1){ margin-right:1%;}
+	.case-a figure figcaption h4{ margin-top:20%;}
+	.case-b{ width:100%; margin-top:1%; margin-left:0;}
+	.case-b figure{ width:49.5%; height:248px;}
+	.case-b figure:nth-child(1){ margin-right:1%;}
+	.case-b figure figcaption h4{ margin-top:20%;}
+	.case-c{ display:none;}
+	.case-xm{ height:507px;}
+	
+	.re-nr-a{ width:32.1%;}
+	.re-nr-a span{ font-size:1.3rem;}
+	.re-nr-a p{ font-size:1rem;}
+	.features .fetop{ margin-top:1.5rem;}
+	
+	.auto-container{ padding:0 2rem;}
+	.news-section{ padding:3rem 0rem;}
+	.copy-fl{ width:35%;}
+	.copy-tel{ width:90%; font-size:23px; letter-spacing:0;}
+	.copy-gs,.copy-dz,.copy-dh,.copy-ys{ font-size:15px;}
+	.copy-gs i,.copy-dz i,.copy-dh i,.copy-ys i{ margin-right:0.5rem;}
+	.copy-fb,.copy-fc{ width:16.2%;}
+	.copy-fb span,.copy-fc span{ font-size:1rem;}
+	.copy-fb ul li,.copy-fc ul li{ font-size:12px;}
+
+	}
+	
+
+@media screen and (min-width: 1100px) and (max-width: 1679px) {
+	html{font-size: 16px; }
+	.nav > ul > li{ padding:0px 15px;}
+	.nav_fl{ width:19.8%;}
+	.nav_fl_bt{ font-size:1.5rem;}
+	.nav_fc_bt{ font-size:1.5rem;}
+	.enga li{ padding:0 5px;}
+	
+	.pages{ padding:0 2rem;}
+	.auto-container{ padding:0 2rem;}
+	.product{ height:720px;}
+	.prod-fl{ margin-top:4rem; height:567px;}
+	.prod-sort{ margin-top:4rem;}
+	.prod-a-nr p{ overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; }
+	.prod-a-img{ }
+	.prod-sort .matop{ margin-top:1rem;}
+	.case{ margin:3rem 0;}
+	.case-fl{ height:300px;}
+	.case-fl-lz{ display:none;}
+	.case-fl-an{ width:50%;}
+	.case-fr figure{ height:300px;}
+	.case-nr img{ width:100% !important; height:100% !important;}
+	.case-fr figure figcaption p{ font-size:14px;}
+	.case-a .case-nr img{ height:100%;}
+	.case-a{ width:43%;}
+	.case-a .case-nr{ height:286px;}
+	.case-a figure figcaption h4{ margin-top:17%;}
+	.case-b{ width:28%; margin-left:5px;}
+	.case-b .case-nr{ height:286px;}
+	.case-b figure figcaption h4{ margin-top:27%;}
+	.case-b figure figcaption p{overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2;height:38px; }
+	.case-c{ width:28%; margin-left:5px;}
+	.case-c figure{ height:578px;}
+	.case-c figure figcaption h4{ margin-top:103%;}
+	.re-nr-a{ width:32.3%; height:250px; padding:3rem 1rem;}
+	.re-nr-a{ padding:3rem 1rem 1rem;}
+	.case-nr img{ height:100%;}
+	.case-xm{ height:578px; margin-top:5px;}
+	.case-fr figure figcaption h4{ margin-top:20%;}
+	.copy-tel{ width:80%; letter-spacing:0;}
+
+	}
+	
+	
+@media screen and (min-width: 320px) and (max-width: 959px){
+	html{font-size: 15px;}
+	.pages{ padding:0 2rem;}
+	.auto-container{ padding:0 2rem;}
+	.h-logo{ margin-top:2rem;}
+	.navs{ width:40%;}
+	.nav{ display:none;}
+	.Nav_eMenu{ width:30%; float:right;}
+	.banner-one{ min-height:96vh;}
+	.banner-carousel .content-box{ min-height:96vh;}
+	.banner-carousel .content-box .inner{ margin:0 auto;}
+	.enga{ padding:0 3px; float:right;}
+	.enga li{ padding:0 3px;}
+	.sideNav{ box-sizing:border-box;}
+	.product{ height:auto; background-color:#f1f1f1; background-image:none; padding-bottom:3rem;}
+	.prod-fl{ width:100%; margin-top:3rem; height:auto;}
+	.prod-fl-img{ display:none;}
+	.prod-fl-nr{ padding:2rem 1.2rem; position:static;}
+	.prod-sort{ margin-top:0; width:100%; overflow-x:hidden; max-height:none;}
+	.prod-a{ width:100%; margin-top:1rem;}
+	.prod-sort .maright{ margin-right:0;}
+	.prod-sort .matop{ margin-top:1rem;}
+	.prod-a{ height:300px;}
+	.prod-a-img img{ height:215px;}
+	.case{ margin:3rem 0;}
+	.case-fl{ width:100%; height:auto; padding:2rem 1.2rem;}
+	.prod-fl:hover .prod-fl-nr h3::after{ width:26px;}
+	.case-fl:hover .case-fl-an{ width:30%; }
+	.case-fl:hover h3::after{ width:26px;}
+	.case-fr{ width:100%;}
+	.case-fr figure{ height:340px;}
+	.case-fr .case-nr{ width:100%; margin-left:0; margin-top:0.5%;}
+	.case-fr figure figcaption h4{ margin-top:22%;}
+	.case-a{ width:100%; }
+	.case-a figure{ height:340px;}
+	.case-xm{ height:auto;}
+	.case-a figure figcaption h4{ margin-top:23%;}
+	.case-nr img{ width:100%; height:100%;}
+	.case-b,.case-c{ display:none;}
+	.fe-bt{ margin-top:2rem;}
+	.re-nr-a{ width:49.5%;}
+	.re-nr-a{ padding:1.5rem 0.5rem;}
+	.features .feleft{ margin-left:1%;}
+	.features .fetop{ margin-top:1%;}
+	.features .fetops{ margin-top:1%;}
+	.features div:nth-child(4){ margin-left:0;}
+	.features div:nth-child(5){ margin-left:1%;}
+	.features div:nth-child(6){ margin-left:0;}
+	.re-nr-a i img{}
+	.re-nr-a span{ font-size:1.2rem;}
+	.re-nr-a p{ font-size:12px;}
+	.news-carousel .owl-nav{ top:auto; bottom:-63px;}
+	.copy-fl{ width:100%; height:424px; border-right:0;}
+	.copys{ padding:2rem 0 2rem;}
+	.copy-tel{ width:100%;}
+	.copy-fb{ width:25%;}
+	.copy-fc{  width:25%;}
+	.copy-fb,.copy-fc{ padding-top:4rem;}
+	.copy-lg{ width:45%; margin:0 auto;}
+	.news-block{ height:auto;}
+	.news-more{ overflow:hidden;}
+	
+	}
+	

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@media (min-width: 1200px){
+	
+	
+	.pages{ max-width:100%;}
+	
+	}
+
+
+
+@media (min-width: 992px){
+	
+	.pages{max-width:100%; padding:0 30px;}
+	
+	}
