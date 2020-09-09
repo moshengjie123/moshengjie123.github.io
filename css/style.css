@@ -411,6 +411,76 @@ img { display: inline-block;  height: auto;}
 .jiuz{ background:#999; width:100%; height:20px;}
 .close{ right:-320px !important;}
 
+/*在线客服*/
+.y-kefu-box { position: fixed; right: 0; bottom: 20%; z-index: 9999; font-size: 13px; }
+.y-kefu-box img { display: block; width: 100%; height: auto; }
+.y-kefu-box01 .icon { display: block; background: url(images/zxgjbg.png) no-repeat; margin: 0 auto 6px; }
+.y-kefu-box01 { width: 54px; color: #666; text-align: center; }
+.y-kefu-box01 .kf-close-btn { width: 29px; height: 29px; background-position: -4px -114px; position: relative; cursor: pointer; display:none}
+.y-kefu-box01 .kf-close-btn:before { content: ''; display: block; width: 1px; height: 12px; background-color: #2a2778; position: absolute; bottom: -12px; left: 13px; z-index: 1; }
+.y-kefu-box01 .show-status>a, .y-kefu-box01 .show-status>div { display: block; width: 52px; padding: 8px 0 12px; background-color: #fff; border-left: solid 1px #efefef; border-top: solid 1px #efefef; border-right: solid 1px #efefef; position: relative; }
+.y-kefu-box01 .show-status { position: relative; }
+.y-kefu-box01 .show-status .kf-zixun { background-color: #2a2778; border-color: #2a2778; color: #fff; margin: 10px 0 7px; /* display: block; */}
+.y-kefu-box01 .kf-zixun { border-radius: 2px; }
+.y-kefu-box01 .kf-zixun i { width: 21px; height: 22px; background-position: -5px -5px; }
+.y-kefu-box01 .kf-mobile { border-top-left-radius: 2px; border-top-right-radius: 2px; }
+.y-kefu-box01 .kf-mobile>i { width: 18px; height: 18px; background-position: -5px -32px; }
+.y-kefu-box01 .kf-mobile:hover>i { background-position: -30px -32px; }
+.y-kefu-box01 .kf-weChat>i { width: 22px; height: 19px; background-position: -5px -55px; }
+.y-kefu-box01 .kf-weChat:hover>i { background-position: -30px -55px; }
+.y-kefu-box01 .kf-email { border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; }
+.y-kefu-box01 .kf-email>i { width: 18px; height: 14px; background-position: -5px -80px; }
+.y-kefu-box01 .kf-email:hover>i { background-position: -30px -80px; }
+.y-kefu-box01 .back-top i { width: 13px; height: 11px; background-position: -5px -98px; }
+.y-kefu-box01 .back-top:hover i { background-position: -30px -98px; }
+.y-kefu-box01 .kf-email, .y-kefu-box01 .back-top  { border-bottom: solid 1px #efefef; }
+.y-kefu-box01 .back-top { margin-top: 20px; border-radius: 2px; left: 55px; }
+.y-kefu-box01 .hver:hover { background-color: #2a2778; border-color: #2a2778; }
+.y-kefu-box01 .hver:hover>p { color: #fff; }
+
+.y-kefu-box01 .mobile-infos, .y-kefu-box01 .y-ewm-box, .y-kefu-box01 .y-email-infos { background-color: #fff; border: solid 1px #efefef; position: absolute; right: 90px; z-index: 2; border-radius: 2px; display: none; } 
+/*咨询热线*/
+.y-kefu-box01 .mobile-infos { width: 250px; text-align: left; top: 0; }
+.y-kefu-box01 .mobile-infos>div { padding: 20px 0 20px 45px; position: relative; }
+.y-kefu-box01 .mobile-infos>div i { width: 15px; height: 15px; background-position: -52px -32px; position: absolute; top: 22px; left: 20px; z-index: 2; }
+.y-kefu-box01 .mobile-infos .online1 { border-bottom: solid 1px #efefef; }
+.y-kefu-box01 .mobile-infos span { color: #999; }
+.y-kefu-box01 .mobile-infos p { color: #2a2778; font-size: 18px; }
+.y-kefu-box01 .right { width: 12px; height: 12px; position: absolute; right: -12px; top: 24px; }
+.y-kefu-box01 .right-arrow1,
+.y-kefu-box01 .right-arrow2 { width: 0; height: 0; display: block; position: absolute; left: 0; top: 0; border-top: 6px transparent dashed; border-right: 6px transparent dashed; border-bottom: 6px transparent dashed; border-left: 6px white solid; overflow: hidden; }
+.y-kefu-box01 .right-arrow1 { left: 1px; border-left: 6px #efefef solid; }
+.y-kefu-box01 .right-arrow2 { border-left: 6px white solid; }
+/*二维码*/
+.y-kefu-box01 .y-ewm-box { width: 150px; height: 178px; top: -60px; }
+.y-kefu-box01 .y-ewm-box>div { width: 151px; height: 178px; }
+.y-kefu-box01 .y-ewm-box img { width: 94px; height: 94px; margin: 30px auto 10px; }
+.y-kefu-box01 .y-ewm-box .y-ewm-img1 { width: 150px; border-right: solid 1px #efefef; }
+.y-kefu-box01 .y-ewm-box .right { top: 84px; }
+/*email*/
+.y-kefu-box01 .y-email-infos { padding: 28px 20px 28px 45px; color: #999; text-align: left; bottom: 0; width: 172px; }
+.y-kefu-box01 .y-email-infos p { color: #2a2778; font-size: 16px; }
+.y-kefu-box01 .y-email-infos>i { width: 18px; height: 13px; background-position: -52px -80px; position: absolute; left: 15px; top: 30px; }
+.y-kefu-box01 .y-email-infos .right { top: 55px; }
+
+.y-kefu-box01 .hide-status { width: 54px; height: 65px; background-color: #abce03; position: absolute; top: 37px; left: 55px; z-index: 9; }
+.y-kefu-box01 .hide-status .kf-zixun { padding: 10px 0 7px; color: #fff; cursor: pointer; }
+.kf-weChat.hver {
+    border-bottom: solid 1px #efefef;
+}
+.kefuqq{ background: #2a2778 !important; border: none !important; width: 54px !important; }
+.more-infos { background-color: #fff; border: solid 1px #ebebeb; position: absolute; right: 90px; box-shadow: 5px 5px 30px rgba(0,0,0,.2); display: none; }
+.y-kefu-box02 .more-infos:before { content: ''; display: block; width: 352px; height: 3px; background-color: #2a2778; position: absolute; left: -1px; top: -1px; z-index: 9; }
+.online-service-infos { width: 320px; padding: 0 15px; top: 0; z-index: 2; }
+.y-kefu-box01 .part01 { padding: 18px 0 22px 45px; border-bottom: solid 1px #e9e9e9; position: relative; text-align: left; }
+.y-kefu-box01 .part01 p { font-size: 16px; color: #2a2778; padding-bottom: 5px; }
+.y-kefu-box01 .part01 i { width: 28px; height: 26px; position: absolute; left: 0; top: 18px; z-index: 2; background: url(images/zxlybgtc.png) no-repeat -40px -5px; }
+.y-kefu-box01 .part02 { padding: 26px 0; height: 26px;}
+.y-kefu-box01 .part02 li { width: 86px; float: left; position: relative; padding-left: 20px; margin-bottom: 10px; }
+.y-kefu-box01 .part02 i { width: 16px; height: 16px; position: absolute; left: 0; top: 0; z-index: 2; background: url(images/zxlybgtc.png) no-repeat -5px -65px; }
+.y-kefu-box01 .part02 li:hover a { color: #2a2778; }
+.y-kefu-box01 .part02 li:hover i { background-position: -25px -65px; }
+
 
 
 
