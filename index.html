@@ -757,6 +757,115 @@ TEL：+852-65561469
 
 	<a href="javascript:;" class="exit-off-canvas"></a>
 
+
+
+    <div class="y-kefu-box y-kefu-box01">
+  <div class="show-status">
+    <span class="kf-close-btn icon"></span>
+
+    <div class="kefuqq">
+        <a class="kf-zixun"><i class="icon"></i>咨询</a>
+        <div class="online-service-infos more-infos">
+            <b class="right">
+                <i class="right-arrow1"></i>
+                <i class="right-arrow2"></i>
+            </b>
+            <div class="part01">
+                <i class="icon"></i>
+                <p>在线客服</p>
+                <span>服务时间：8:00-18:00</span>
+            </div>
+            <div class="part02">
+                <ul class="clearfix" id="onlineKf">
+                    
+                  <li><a href="" target="_blank" title="点击这里给我发消息" rel="nofollow"><i class="icon"></i>立即咨询</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="kf-mobile hver">
+      <i class="icon"></i>
+      
+      <p>电话</p>
+      <div class="mobile-infos">
+        <b class="right">
+          <i class="right-arrow1"></i>
+          <i class="right-arrow2"></i>
+        </b>
+        <div class="online1">
+          <i class="icon"></i>
+          <span>咨询热线</span>
+           <p>+852-65561469</p>
+        </div>
+      </div>
+    </div>
+    <div class="kf-weChat hver">
+      <i class="icon"></i>
+      <p>微信</p>
+      <div class="y-ewm-box clearfix">
+        <b class="right">
+          <i class="right-arrow1"></i>
+          <i class="right-arrow2"></i>
+        </b>
+        <div class="y-ewm-img1 fl">
+                              <img src="" alt="业务咨询">
+                    <p>业务咨询</p>
+        </div>
+
+      </div>
+    </div>
+    <a href="javascript:;" class="back-top hver" id="yBackTop"><i class="icon"></i><p>顶部</p></a>
+  </div>
+  <div class="hide-status" id="hideStatus">
+    <div class="kf-zixun"><i class="icon"></i>咨询</div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $('.kf-mobile, .kf-weChat, .kf-email , .kefuqq').hover(function(){
+    $(this).children('div').stop().show().animate({right:'70px',opacity:1}, 400);
+  },function(){
+    $(this).children('div').stop().animate({right:'90px',opacity:0}, 400,function(){$(this).hide()});
+                                                                                   })
+      
+      $('.y-kefu-box01 .kf-close-btn').on('click',function(){
+      $(this).parent().animate({left:'55px'}, 400,function(){
+      $(this).hide().next().show().animate({left:'0'}, 400);
+  });
+  })
+    $('#hideStatus').on('click',function(){
+    $(this).animate({left:'55px'}, 400,function(){
+    $(this).hide().prev().show().animate({left:'0'}, 400);
+  });
+  })
+    
+    //返回顶部
+    var yWin = $(window).scrollTop();
+  var isShow = true;
+  $(window).scroll(function(){
+    yWin = $(window).scrollTop();
+    console.log(yWin);
+    if(yWin > 500){
+      if(isShow){
+        isShow = false;
+        $('#yBackTop').show().animate({left:'0'}, 400);
+      }
+    }
+    if(yWin < 500){
+      if(!isShow){
+        isShow = true;
+        $('#yBackTop').animate({left:'55px'}, 400,function(){$(this).hide();});
+      }
+      
+    }
+  })
+    $('#yBackTop').on('click',function(){
+    $('html,body').animate({'scrollTop':0}, 800);
+  })
+</script>
+
        <!--导航滑动-->
 		<script type="text/javascript">
 			
